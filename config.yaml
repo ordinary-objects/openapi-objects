@@ -1,0 +1,11 @@
+apiName: PenpotApi
+packageName: Ordinary.Core.PenpotApi
+templateDir: out
+additionalProperties:
+  validatable: "false"
+  targetFramework: netstandard2.1
+  skipFormModel: false
+  supportsFileParameters: true
+  nullableReferenceTypes: false
+  useOneOfDiscriminatorLookup: true
+library: unityWebRequest

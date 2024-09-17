@@ -1,0 +1,7 @@
+{
+    "name": "Ordinary.Core.PenpotApi",
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ]
+}

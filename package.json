@@ -1,0 +1,13 @@
+{
+  "name": "openapi-unity-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.7.0"
+  },
+  "scripts": {
+    "build": "rm -rf build/* && openapi-generator-cli generate -i http://localhost:6060/api/openapi.json -g csharp -o build -t out -c config.yaml --global-property debugModels,debugOperations,skipFormModel=false --additional-properties supportsFileParameters=true",
+    "pull-template": "openapi-generator author template -g csharp-netcore --library unityWebRequest"
+  }
+}
