@@ -1,6 +1,9 @@
 apiName: PenpotApi
+outputDir: build
+generatorName: csharp
+library: unityWebRequest
 packageName: Ordinary.Core.PenpotApi
-templateDir: out
+templateDir: template
 additionalProperties:
   validatable: "false"
   targetFramework: netstandard2.1
@@ -8,4 +11,7 @@ additionalProperties:
   supportsFileParameters: true
   nullableReferenceTypes: false
   useOneOfDiscriminatorLookup: true
-library: unityWebRequest
+globalProperties:
+  debugModels: true
+  debugOperations: true
+  skipFormModel: false
